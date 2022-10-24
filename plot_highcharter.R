@@ -3,9 +3,6 @@
 library(tidyverse)
 library(highcharter)
 library(googlesheets4)
-library(kableExtra)
-library(DT)
-library(plotly)
 
 # Crear base de datos -----------------------------------------------------
 
