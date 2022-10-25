@@ -41,7 +41,7 @@ hchart("column", hcaes(x = soporte, y = cantidad_ppto, group = formato)) %>% # d
   hc_plotOptions( # Parámetros específicos del plot que se genera
     column  = list(
       dataLabels = list(
-        enabled  = TRUE)), # Para habilitar el número arriba de la barra
+        enabled  = TRUE)), # Para habilitar valor Y arriba de la barra
     series  = list(
       pointWidth = 35)) %>% # Ancho de los elementos de la serie, en este caso las columnas
   hc_tooltip(
